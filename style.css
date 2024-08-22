@@ -1,0 +1,137 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed; 
+    top: 0;
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    z-index: 1000;
+    margin: 5px 15px;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.logo-text{
+    font-size: x-large;
+
+}
+.logo img {
+    height: 30px;
+    margin-right: 8px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+    font-size: larger;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: black;
+}
+
+.download-button a {
+    background-color: #00e3c0;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.download-button a:hover {
+    background-color: #00c0a0;
+}
+.text{
+    font-size: large;
+    font-weight: bolder;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem;
+}
+.same-fontsize{
+    font-size: 4rem;
+}
+.tour-span{
+color: #04DDB2;
+}
+.text-p{
+    font-size: 2rem;
+    max-width: 600px;
+    margin: 15px 0;
+    font-weight: 400;
+    text-align: center;
+}
+.video-sec{
+    margin: 20px 0;
+    height: 400px;
+    width: 700px;
+    box-shadow: 5px 10px #888888;
+    border: 2px black solid;
+}
+.second-h1{
+    max-width: 500px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.divider{
+    border: 1px solid grey;
+    max-width: 95%;
+   margin: auto;
+}
+
+.footer{
+
+}
+
+.grid-container{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: auto;
+    padding: 4rem;
+}
+.bold{
+    font-weight: bolder;
+}
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: left;
+    cursor: pointer;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
